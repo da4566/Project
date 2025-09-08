@@ -1,0 +1,152 @@
+.navbar-nav{
+    padding-left: 840px !important;
+}
+.buttonnav{
+    background-color: #7C4EE4 !important;
+    color: #FFFF !important;
+}
+
+/* 1 sec */
+.diver{
+    background-color: #7C4EE4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+.text-sec{
+    font-family: raleway;
+    
+}
+.classic{
+    font-size: 65px;
+}
+.btn-button{
+    color: black;
+    background-color: #FFFF;
+    border-color: #FFFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none; 
+}
+.imgdiv>img{
+   width: 500px;
+}
+
+/* 2 sec */
+.secondimg img{
+    width: 100%;
+    padding: 100px 170px;
+
+}
+.secondimg{
+    position: relative;
+}
+.secondpara{
+    position: absolute;
+    left: 450px;
+    bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.secondpara h1{
+   font-family: raleway;
+   font-size: 35px;
+}
+.secondpara h6 .secondpara p  {
+   font-family: roboto;
+}
+.second-button{
+    border-color: #7C4EE4;
+    color: #7C4EE4;
+       
+}
+/* 3 sec */
+.view-button{
+    background-color: #7C4EE4;
+    color: white;
+    border-color: #7C4EE4;
+    border-radius: 5px;
+    padding: 2px 20px;
+    
+}
+.our{
+    display: flex;
+    gap: 550px;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.third-img img{
+    width: 500px;
+ 
+}
+.third-flex{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+/* 4sec */
+.fourth-main{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    /* gap: 30px; */
+    justify-content: center;
+}
+
+.first-card img{
+   width: 100%;
+}
+
+/* 5 sec */
+/* .first-card5 img{
+ width: 110%;
+} */
+
+/* 6 sec */
+.footer{
+    background-color: #7C4EE4;
+    padding-left: 400px;
+    padding-top: 100px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+
+    align-items: center;
+}
+
+
+.get{
+    border-color: white;
+    background-color: #7C4EE4;
+    border-radius: 5px;
+    color: white;
+}
+
+.input{
+    display: flex;
+    gap: 50px;
+}
+.logos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logos > ul{
+    margin: 20px 0;
+    display:flex ;
+   padding-left: 30rem;
+}
+.logos>ul>li{
+   list-style: none;
+
+}
+.logos>ul>li a{
+   text-decoration: none;
+}
