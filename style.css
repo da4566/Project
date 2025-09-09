@@ -45,7 +45,7 @@
     border: none; 
 }
 .imgdiv{
-    min-width: 250px;
+    min-width: 300px;
     max-width: 400px;
     flex-basis: 45%;
 }
@@ -227,7 +227,10 @@
 }
 @media(max-width:1075px){
     .navbar-nav{
-      padding-left: 400px !important;
+      padding-left: 380px !important;
+    }
+    .d-flex .fa{
+        padding-left: 30px !important;
     }
     .classic{
         font-size: 38px;
@@ -299,5 +302,95 @@
     }
     .icon{
         padding-left: 24rem;
+    }
+}
+@media(max-width:550px){
+    .d-flex .fa{
+        padding-left: 30px !important;
+    }
+    .navbar-nav{
+        padding-left: 40px !important;
+    }
+    .classic{
+        font-size: 35px;
+    }
+    .divider{
+        display: block;
+    }
+    .text-section{
+        padding: 30px ;
+    }
+    .imgdiv{
+        padding: 30px 50px ;
+    }
+    .imgdiv img{
+        max-height: 320px;
+        max-width: 300px;
+    }
+    .secondpara{
+        position: relative;
+        left: 0;
+    }
+    .secondimg{
+        padding: 15px;
+        width: 327px;
+        height: 650px;
+        margin: 55px 15px;
+        border: 2px solid grey;
+        background-color: #FFFFFF;
+    }
+    .secondimg img{
+        height: 200px;
+        width: 293px;
+    }
+    .third-flex{
+        display: none;
+    }
+    .our{
+        padding-top: 10px;
+        gap: 47px;
+    }
+    .our h1{
+        font-size: 19px;
+        font-weight: 800;
+    }
+    .our button{
+        font-size: 10px;
+        font-weight: 800;
+    }
+    .fourth-main{
+        padding-top: 0px;
+    }
+    .input-div{
+        margin-left: 35px !important;
+        margin-top: 20px;   
+        gap: 8px !important;
+    }
+    .input-div input{
+        padding: 4px;
+    }
+    .footer h2{
+        width: 280px;
+        text-align: center;
+        margin: auto;
+    }
+    .footer p{
+        font-size: 10.5px;
+    }
+    .logos ul {
+        padding-left: 4rem;
+    }
+    .icon{
+        padding-left: 6rem;
+    }
+    .icon h6{
+        margin: 10px 8px;
+    }
+    .paragraph{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .logos ul li a{
+        margin: 10px 9px;
     }
 }
