@@ -8,11 +8,19 @@
     font-style: normal;
 }
 .navbar-nav{
-    padding-left: 840px !important;
+    padding-left: 780px !important;
 }
 .buttonnav{
     background-color: #7C4EE4 !important;
     color: #FFFF !important;
+    font-weight: bold !important;   
+    padding: 10px 15px !important;
+}
+.buttonnav:hover{
+    background: #503a83 !important;
+}
+.navbar-brand img{
+    margin-left: 25px ;
 }
 .divider{
     background-color: #7C4EE4;
@@ -72,6 +80,9 @@
     border-radius: 10px;
     padding: 2px 20px;
 }
+.view-button:hover{
+    background: #503a83;
+}
 .our{
     display: flex;
     gap: 590px;
@@ -104,7 +115,6 @@
 }
 .footer{
     background-color: #7C4EE4;
-    padding-left: 400px;
     padding-top: 100px;
     margin-top: 50px;
     padding-bottom: 100px;
@@ -115,10 +125,22 @@
     background-color: #7C4EE4;
     border-radius: 10px;
     color: white;
+    padding: 5px 15px;
+}
+.get:hover{
+    background-color: white;
+    color: #7C4EE4;
 }
 .input{
     display: flex;
     gap: 50px;
+}
+.input-div{
+    margin-left: 500px !important;  
+}
+.input-div input{
+    border-radius: 10px;
+    padding: 10px;
 }
 .logos{
     justify-content: center;
@@ -141,29 +163,35 @@
 }
 .icon{
     display: flex;
-    margin-left: 30rem;
+    margin-left: 34rem;
 }
 .icon h6{
-    margin: 20px 30px;
+    margin: 20px 20px;
     padding: 10px;
     border-radius: 50%;
     background-color: #7C4EE4;
 }
 .div6{
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid gray;
+    text-align: center;
 }
 .logos{
     margin: 70px auto;
+    padding-bottom: 50px;
+    border-bottom: 2px solid gray;
 }
 .paragraph{
     margin: 30px 0;
     text-align: center;
 }
 .text-heading{
-    margin: 20px 30px;
+    margin: 20px 0px;
 }
 .input{
     margin-left: 50px;
+}
+.logos img{
+    margin: 20px 0px;
+}
+.text-heading{
+
 }
