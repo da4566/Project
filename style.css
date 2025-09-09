@@ -30,8 +30,8 @@
     margin: auto;
     align-items: center;
 }
-.text-sec{
-    font-family: raleway;
+.text-section{
+    font-family: "Raleway";
 }
 .classic{
     font-size: 65px;
@@ -44,15 +44,23 @@
     padding: 5px 10px;
     border: none; 
 }
+.imgdiv{
+    min-width: 250px;
+    max-width: 400px;
+    flex-basis: 45%;
+}
 .imgdiv img{
-   width: 500px;
+    width: 100%;
 }
 .secondimg img{
     width: 100%;
-    padding: 100px 170px;
 }
 .secondimg{
     position: relative;
+    padding: 100px 170px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .secondpara{
     position: absolute;
@@ -63,15 +71,28 @@
     border-radius: 10px;
 }
 .secondpara h1{
-   font-family: raleway;
-   font-size: 35px;
+   font-family: "Raleway";
+   font-size: 30px;
 }
 .secondpara h6 .secondpara p  {
-   font-family: roboto;
+   font-family: "Roboto";
+}
+.secondpara h6{
+    font-size: 12px;
+}
+.secondpara p{
+    font-size: 16px;
 }
 .second-button{
     border-color: #7C4EE4;
     color: #7C4EE4;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.second-button:hover{
+    background: #503a83;
+    color: #FFFF;
 }
 .view-button{
     background-color: #7C4EE4;
@@ -96,8 +117,17 @@
     display:flex ;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    padding-top: 50px;
+    gap: 80px;
+    padding-top: 70px;
+}
+.third-text h6{
+    font-size: 12px;
+}
+.third-text p{
+    font-size: 16px;
+}
+.third-text h1{
+    font-size: 32px;
 }
 .fourth-main{
     display: flex;
@@ -111,7 +141,9 @@
    width: 100%;
 }
 .first-card{
-    max-width: 400px !important;
+    min-width: 200px !important;
+    max-width: 380px !important;
+    margin: 30px 0px;
 }
 .footer{
     background-color: #7C4EE4;
@@ -146,6 +178,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: auto;
 }
 .logos ul{
     margin: 20px 0;
@@ -163,7 +196,7 @@
 }
 .icon{
     display: flex;
-    margin-left: 34rem;
+    padding-left: 34rem;
 }
 .icon h6{
     margin: 20px 20px;
@@ -192,6 +225,79 @@
 .logos img{
     margin: 20px 0px;
 }
-.text-heading{
-
+@media(max-width:1075px){
+    .navbar-nav{
+      padding-left: 400px !important;
+    }
+    .classic{
+        font-size: 38px;
+    }
+    .sub-text{
+        font-size: 12px;
+    }
+    .btn-button{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .secondpara{
+        position: absolute;
+        left: 250px;
+        bottom: -20px;
+    }
+    .secondpara h1{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .secondpara h6{
+        font-size: 9px;
+    }
+    .secondpara p{
+        font-size: 12px;
+    }
+    .secondimg{
+        padding: 70px 120px;
+        width: 882px;
+        height: 500px;
+    }
+    .secondimg img{
+        width: 100%;
+    }
+    .our{
+        gap: 350px;
+    }
+    .third-flex{
+        gap: 50px;
+    }
+    .third-text h6{
+        font-size: 9px;
+    }
+    .third-text p{
+        font-size: 12px;
+    }
+    .third-text h1{
+        font-size: 22px;
+    }
+    .first-card{
+        max-width: 270px !important;
+    }
+    .first-card h6{
+        font-size: 9px;
+        padding-top: 15px;
+    }
+    .first-card p{
+        font-size: 12px;
+    }
+    .first-card h4{
+        font-size: 17px;
+    }
+    .input-div{
+        margin-left: 300px !important;
+        margin-top: 20px;   
+    }
+    .logos ul {
+        padding-left: 20rem;
+    }
+    .icon{
+        padding-left: 24rem;
+    }
 }
