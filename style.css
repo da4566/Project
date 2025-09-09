@@ -74,7 +74,7 @@
 }
 .our{
     display: flex;
-    gap: 550px;
+    gap: 590px;
     justify-content: space-evenly;
     padding-top: 80px;
 }
@@ -91,8 +91,8 @@
 .fourth-main{
     display: flex;
     padding-top: 80px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 40px;
+    padding-right: 50px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -100,7 +100,7 @@
    width: 100%;
 }
 .first-card{
-    min-width: 250px !important;
+    max-width: 400px !important;
 }
 .footer{
     background-color: #7C4EE4;
